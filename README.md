@@ -6,21 +6,21 @@ Build the retail radar that spots the next outdoor opportunity before it becomes
 
 Retail teams are flooded with weak signals: TikTok clips, search spikes, niche communities, new materials, marketplace bestsellers, competitor drops, weather shifts, and regional lifestyle changes. The hard part is not finding more data. It is turning noisy signals into one clear answer: what should a retailer do next?
 
-Your mission is to build a reusable system that detects emerging retail opportunities from global and local market signals.
+Your mission is to build a reusable system that detects emerging product, material, and brand opportunities from global and local market signals.
 
 Use the shared scenario of a Swiss outdoor retailer to prove that the system works, but design it so the same method could be reused for another industry, market, product category, retailer, or brand.
 
 The best submissions are not one-off research reports. They show a repeatable flow where inputs can change and the method still works.
 
-This is the **B2B challenge**: help the retailer decide what emerging products, services, assortment gaps, or retail opportunities are worth stocking, testing, or monitoring. There is also a companion **B2C challenge** by Scandit, focused on the in-store shopper experience: [`raffaelefarinaro/hercode-scandit-challenge`](https://github.com/raffaelefarinaro/hercode-scandit-challenge).
+This is the **B2B challenge**: help the retailer decide what emerging products, materials, brands, or product features are worth stocking, testing, or monitoring. There is also a companion **B2C challenge** by Scandit, focused on the in-store shopper experience: [`raffaelefarinaro/hercode-scandit-challenge`](https://github.com/raffaelefarinaro/hercode-scandit-challenge).
 
 ## Challenge Scenario
 
-Detect promising emerging outdoor retail opportunities for Switzerland or DACH. Think beyond "new product list": your system could uncover a new activity, product format, material, rental model, merchandising idea, local assortment gap, brand partnership, or community trend.
+Detect promising emerging outdoor product, material, and brand opportunities for Switzerland or DACH. Think beyond "new product list": your system could uncover a rising product format, material, technology, feature, brand, supplier, or product gap.
 
 Your system should answer:
 
-- What are the emerging opportunities?
+- What are the emerging product, material, or brand opportunities?
 - Where is the trend appearing first: US, Japan, Korea, Nordics, UK, DACH, Switzerland, or another market?
 - What evidence supports the opportunity?
 - Could the trend transfer into Switzerland or DACH?
@@ -33,7 +33,7 @@ Start by asking what a Swiss outdoor retailer would actually want to know. For e
 - Which product types are growing in other markets before they become obvious in Switzerland?
 - Which materials, technologies, or product features are becoming commercially meaningful?
 - Which price bands, formats, sizes, or use cases are undercovered by local retailers?
-- Which assortment gaps could create differentiation, margin, or customer loyalty?
+- Which product, material, or brand gaps could create differentiation, margin, or customer loyalty?
 - Which trends are just noise, and which deserve a test, supplier conversation, or deeper analysis?
 
 Based on those questions, define your own methodology: choose sources, collect evidence, score signals, assess Swiss/DACH transferability, and turn the best findings into clear retail actions.
@@ -107,7 +107,7 @@ A strong demo does not need to replace the whole flow. Improving one source, ana
 
 By the end, the jury should be able to open your fork and understand:
 
-- What your system found.
+- What product, material, or brand opportunity your system found.
 - Why the opportunity matters now.
 - Which sources support it.
 - Whether it can realistically work in Switzerland or DACH.
@@ -132,7 +132,7 @@ See [`docs/data-contract.md`](docs/data-contract.md) for a recommended output sc
 
 The jury will evaluate:
 
-- Signal detection: can the system find a real emerging opportunity from messy sources?
+- Signal detection: can the system find a real emerging product, material, or brand opportunity from messy sources?
 - Evidence quality: are trends backed by sources, not guesses?
 - Transferability: does the system reason whether a global trend can work in Switzerland or DACH?
 - Business actionability: does the output lead to a clear retail decision?
