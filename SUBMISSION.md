@@ -29,11 +29,11 @@ Include exact setup and run commands.
 
 Describe the inputs your system uses. The list below is a set of examples, not mandatory fields; keep, remove, or replace them with the inputs that actually apply to your solution.
 
-- Market:
-- Category:
+- Market: Swiss Outdoor retail
+- Category: 
 - Seed keywords:
-- Sources:
-- Languages:
+- Sources: 
+- Languages: English
 - External files, APIs, or datasets:
 
 ## Outputs
