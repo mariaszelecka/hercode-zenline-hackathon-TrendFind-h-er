@@ -12,8 +12,7 @@ Complete this file in your fork before submitting.
 
 ## Summary
 
-Briefly describe what you built and which part of the opportunity-detection system it improves.
-
+We help category managers decide what to test, buy, launch, or monitor next by collecting messy signals, cleaning and scoring them, and turning them into ranked opportunities with clear actions.
 
 
 ## How To Run
