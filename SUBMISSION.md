@@ -4,7 +4,7 @@ Complete this file in your fork before submitting.
 
 ## Team
 
-- Team name: TrendFin(h)er
+- Team name: TrendFind(h)er
 - Team members: Morena, Marija, Ashton, Maria
 - GitHub fork URL: https://github.com/velkosska/hercode-zenline-hackathon 
 - Video walkthrough URL, if any: https://drive.google.com/file/d/166KkY4JaXIFFvjRVlayRKw67X9om-wxh/view
