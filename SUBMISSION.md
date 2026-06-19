@@ -6,9 +6,8 @@ Complete this file in your fork before submitting.
 
 - Team name: TrendFin(h)er
 - Team members: Morena, Marija, Ashton, Maria
-- GitHub fork URL: 
-- Demo URL, if any:
-- Video walkthrough URL, if any:
+- GitHub fork URL: https://github.com/velkosska/hercode-zenline-hackathon 
+- Video walkthrough URL, if any: https://drive.google.com/file/d/166KkY4JaXIFFvjRVlayRKw67X9om-wxh/view
 
 ## Summary
 
@@ -48,13 +47,7 @@ Describe the main output artifacts in this repository or linked from it.
 
 ## Ranked Opportunities
 
-Teams are free to decide what counts as evidence and how they want to score confidence. Be creative, as long as the result is understandable.
-
-| Rank | Opportunity | Evidence | Confidence |
-| --- | --- | --- | --- |
-| 1 |  |  |  |
-| 2 |  |  |  |
-| 3 |  |  |  |
+The evidence is our demo.
 
 ## Evidence Trail
 
@@ -75,4 +68,8 @@ Next steps: connect at least one real source, backtest lead time against histori
 
 ## Architecture Notes
 
-Briefly describe the main components of your solution and how data flows between them.
+Data flows in four stages, matching the four MVP steps:
+Collection. Pull signals from messy sources across multiple markets (search, social, marketplaces, competitor drops). In this build the collected set is mocked.
+Normalize and deduplicate. Clean and merge signals while preserving the URL, market, date, and any limitation on each one, so nothing is recommended without a traceable source.
+Score. Rate each signal on four axes: strength (how loud and how fast), confidence (how much to trust it, based on source quality and corroboration), transferability (does it cross into CH/DACH), and gaps (what still has to be resolved). These roll up to a composite score.
+Handoff. Output a ranked list of opportunities, each with a recommendation (Act, Test, Monitor, Pass), a Switzerland/DACH read, the source list, a limitation statement, and a concrete recommended action.
