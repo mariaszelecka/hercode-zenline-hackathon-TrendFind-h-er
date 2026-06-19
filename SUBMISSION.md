@@ -62,7 +62,7 @@ List the most important sources, links, datasets, screenshots, or tool outputs.
 
 ## Reusability
 
-Explain how your system could be reused for another retailer, market, category, or industry.
+The engine is category- and market-agnostic. Nothing in the scoring model is specific to outdoor. Swap the seed keywords, source set, and the same pipeline runs for another retailer, category, or industry.
 
 ## Known Limitations
 
