@@ -4,15 +4,17 @@ Complete this file in your fork before submitting.
 
 ## Team
 
-- Team name:
-- Team members:
-- GitHub fork URL:
+- Team name: TrendFin(h)er
+- Team members: Morena, Marija, Ashton, Maria
+- GitHub fork URL: 
 - Demo URL, if any:
 - Video walkthrough URL, if any:
 
 ## Summary
 
 Briefly describe what you built and which part of the opportunity-detection system it improves.
+
+
 
 ## How To Run
 
